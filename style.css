@@ -61,9 +61,7 @@ body {
   }
   /* START BELOW THIS LINE */
 
-  html {
-      position: static;
-  }
+  /* static */
 
   #power {
       position: relative;
@@ -89,7 +87,7 @@ body {
       position: absolute;
       right: 0;
       bottom: 150px;
-      z-index: 10;
+      z-index: 11;
   }
 
   #mind {
@@ -102,7 +100,7 @@ body {
       position: fixed;
       right: 0;
       top: 0;
-      z-index: 8;
+      z-index: 10;
   }
 
   h1 {
